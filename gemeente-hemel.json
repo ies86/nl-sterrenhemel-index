@@ -1,0 +1,3097 @@
+{
+ "_meta": {
+  "titel": "Sterrenhemel-index van Nederland, per gemeente",
+  "berekend": "2026-07-21",
+  "methode": "RIVM-raster hemelhelderheid nacht onbewolkt (model 2015, 250 m, kunstlicht in mcd/m2); mediaan van maximaal 25 rasterpunten in een 5x5-grid (stap 1 km) rond het PDOK-gemeentemiddelpunt; plus 0,28 mcd/m2 natuurlijke hemelachtergrond; SQM = 20,08 - 2,5*log10(L); Bortle-klasse via de gepubliceerde SQM-grenzen; objecten_200mm = aantal van de 219 Messier/Caldwell-objecten dat jaarrond makkelijk of met wat moeite te zien is met een 200mm-telescoop op de breedtegraad van de gemeente, met exact dezelfde formules als de rekentool op telescoopwijzer.nl.",
+  "onzekerheid": "De realistische onzekerheid van dit soort modellen is 0,3-0,5 mag/arcsec2: genoeg om dorp van buitengebied van echt donker te onderscheiden, te grof voor twee decimalen. Behandel sqm_mediaan als indicatie, de klasse als de boodschap.",
+  "voorbehoud": "Het RIVM-model rekent alleen met Nederlandse lichtbronnen: grensgemeenten (Zuid-Limburg, Zeeuws-Vlaanderen, Twente, Oost-Groningen) zijn in werkelijkheid iets lichter dan hier berekend. Het model is uit 2015 en is een berekening, geen meting; ijkpunt: Schiermonnikoog berekend 21,4 tegen gemeten 21,4 (RIVM Meetnet Hemelhelderheid).",
+  "bronnen": [
+   "https://data.overheid.nl/dataset/61269-berekende-hemelhelderheid-in-de-nacht--zonder-bewolking (CC Public Domain Mark 1.0)",
+   "https://www.rivm.nl/sites/default/files/2018-11/Kentallen%20Schiermonnikoog.pdf (omrekenformule en natuurlijke achtergrond)",
+   "https://api.pdok.nl/bzk/locatieserver (gemeentemiddelpunten)",
+   "https://github.com/mattiaverga/OpenNGC (objectgegevens, CC BY-SA 4.0)"
+  ],
+  "licentie": "Deze afgeleide dataset: CC BY 4.0, naamsvermelding \"telescoopwijzer.nl\".",
+  "aantal": 342
+ },
+ "gemeenten": [
+  {
+   "gemeente": "Harlingen",
+   "provincie": "Fryslân",
+   "bortle": 3,
+   "klasse": "Landelijke hemel",
+   "sqm_mediaan": 21.4,
+   "objecten_200mm": 161,
+   "breedtegraad": 53.14
+  },
+  {
+   "gemeente": "Schiermonnikoog",
+   "provincie": "Fryslân",
+   "bortle": 3,
+   "klasse": "Landelijke hemel",
+   "sqm_mediaan": 21.4,
+   "objecten_200mm": 161,
+   "breedtegraad": 53.47
+  },
+  {
+   "gemeente": "Terschelling",
+   "provincie": "Fryslân",
+   "bortle": 3,
+   "klasse": "Landelijke hemel",
+   "sqm_mediaan": 21.4,
+   "objecten_200mm": 161,
+   "breedtegraad": 53.34
+  },
+  {
+   "gemeente": "Vlieland",
+   "provincie": "Fryslân",
+   "bortle": 3,
+   "klasse": "Landelijke hemel",
+   "sqm_mediaan": 21.4,
+   "objecten_200mm": 161,
+   "breedtegraad": 53.22
+  },
+  {
+   "gemeente": "Ameland",
+   "provincie": "Fryslân",
+   "bortle": 3,
+   "klasse": "Landelijke hemel",
+   "sqm_mediaan": 21.3,
+   "objecten_200mm": 161,
+   "breedtegraad": 53.43
+  },
+  {
+   "gemeente": "Het Hogeland",
+   "provincie": "Groningen",
+   "bortle": 3,
+   "klasse": "Landelijke hemel",
+   "sqm_mediaan": 21.3,
+   "objecten_200mm": 161,
+   "breedtegraad": 53.43
+  },
+  {
+   "gemeente": "Texel",
+   "provincie": "Noord-Holland",
+   "bortle": 3,
+   "klasse": "Landelijke hemel",
+   "sqm_mediaan": 21.3,
+   "objecten_200mm": 161,
+   "breedtegraad": 53.08
+  },
+  {
+   "gemeente": "Urk",
+   "provincie": "Flevoland",
+   "bortle": 3,
+   "klasse": "Landelijke hemel",
+   "sqm_mediaan": 21.3,
+   "objecten_200mm": 162,
+   "breedtegraad": 52.69
+  },
+  {
+   "gemeente": "Baarle-Nassau",
+   "provincie": "Noord-Brabant",
+   "bortle": 4,
+   "klasse": "Landelijk/voorstad-overgang",
+   "sqm_mediaan": 21.2,
+   "objecten_200mm": 159,
+   "breedtegraad": 51.44
+  },
+  {
+   "gemeente": "Hollands Kroon",
+   "provincie": "Noord-Holland",
+   "bortle": 4,
+   "klasse": "Landelijk/voorstad-overgang",
+   "sqm_mediaan": 21.1,
+   "objecten_200mm": 158,
+   "breedtegraad": 52.89
+  },
+  {
+   "gemeente": "Schouwen-Duiveland",
+   "provincie": "Zeeland",
+   "bortle": 4,
+   "klasse": "Landelijk/voorstad-overgang",
+   "sqm_mediaan": 21.1,
+   "objecten_200mm": 158,
+   "breedtegraad": 51.68
+  },
+  {
+   "gemeente": "Súdwest-Fryslân",
+   "provincie": "Fryslân",
+   "bortle": 4,
+   "klasse": "Landelijk/voorstad-overgang",
+   "sqm_mediaan": 21.1,
+   "objecten_200mm": 157,
+   "breedtegraad": 53
+  },
+  {
+   "gemeente": "Vaals",
+   "provincie": "Limburg",
+   "bortle": 4,
+   "klasse": "Landelijk/voorstad-overgang",
+   "sqm_mediaan": 21.1,
+   "objecten_200mm": 160,
+   "breedtegraad": 50.77
+  },
+  {
+   "gemeente": "Vlissingen",
+   "provincie": "Zeeland",
+   "bortle": 4,
+   "klasse": "Landelijk/voorstad-overgang",
+   "sqm_mediaan": 21.1,
+   "objecten_200mm": 159,
+   "breedtegraad": 51.47
+  },
+  {
+   "gemeente": "Westerveld",
+   "provincie": "Drenthe",
+   "bortle": 4,
+   "klasse": "Landelijk/voorstad-overgang",
+   "sqm_mediaan": 21.1,
+   "objecten_200mm": 158,
+   "breedtegraad": 52.84
+  },
+  {
+   "gemeente": "Westerwolde",
+   "provincie": "Groningen",
+   "bortle": 4,
+   "klasse": "Landelijk/voorstad-overgang",
+   "sqm_mediaan": 21.1,
+   "objecten_200mm": 157,
+   "breedtegraad": 53.01
+  },
+  {
+   "gemeente": "De Fryske Marren",
+   "provincie": "Fryslân",
+   "bortle": 4,
+   "klasse": "Landelijk/voorstad-overgang",
+   "sqm_mediaan": 21,
+   "objecten_200mm": 158,
+   "breedtegraad": 52.89
+  },
+  {
+   "gemeente": "Lelystad",
+   "provincie": "Flevoland",
+   "bortle": 4,
+   "klasse": "Landelijk/voorstad-overgang",
+   "sqm_mediaan": 21,
+   "objecten_200mm": 158,
+   "breedtegraad": 52.54
+  },
+  {
+   "gemeente": "Noord-Beveland",
+   "provincie": "Zeeland",
+   "bortle": 4,
+   "klasse": "Landelijk/voorstad-overgang",
+   "sqm_mediaan": 21,
+   "objecten_200mm": 158,
+   "breedtegraad": 51.57
+  },
+  {
+   "gemeente": "Nunspeet",
+   "provincie": "Gelderland",
+   "bortle": 4,
+   "klasse": "Landelijk/voorstad-overgang",
+   "sqm_mediaan": 21,
+   "objecten_200mm": 158,
+   "breedtegraad": 52.34
+  },
+  {
+   "gemeente": "Sluis",
+   "provincie": "Zeeland",
+   "bortle": 4,
+   "klasse": "Landelijk/voorstad-overgang",
+   "sqm_mediaan": 21,
+   "objecten_200mm": 159,
+   "breedtegraad": 51.33
+  },
+  {
+   "gemeente": "Aa en Hunze",
+   "provincie": "Drenthe",
+   "bortle": 4,
+   "klasse": "Landelijk/voorstad-overgang",
+   "sqm_mediaan": 20.9,
+   "objecten_200mm": 157,
+   "breedtegraad": 52.99
+  },
+  {
+   "gemeente": "Bergen (L)",
+   "provincie": "Limburg",
+   "bortle": 4,
+   "klasse": "Landelijk/voorstad-overgang",
+   "sqm_mediaan": 20.9,
+   "objecten_200mm": 158,
+   "breedtegraad": 51.59
+  },
+  {
+   "gemeente": "Borger-Odoorn",
+   "provincie": "Drenthe",
+   "bortle": 4,
+   "klasse": "Landelijk/voorstad-overgang",
+   "sqm_mediaan": 20.9,
+   "objecten_200mm": 157,
+   "breedtegraad": 52.91
+  },
+  {
+   "gemeente": "De Wolden",
+   "provincie": "Drenthe",
+   "bortle": 4,
+   "klasse": "Landelijk/voorstad-overgang",
+   "sqm_mediaan": 20.9,
+   "objecten_200mm": 158,
+   "breedtegraad": 52.7
+  },
+  {
+   "gemeente": "Dinkelland",
+   "provincie": "Overijssel",
+   "bortle": 4,
+   "klasse": "Landelijk/voorstad-overgang",
+   "sqm_mediaan": 20.9,
+   "objecten_200mm": 158,
+   "breedtegraad": 52.37
+  },
+  {
+   "gemeente": "Hulst",
+   "provincie": "Zeeland",
+   "bortle": 4,
+   "klasse": "Landelijk/voorstad-overgang",
+   "sqm_mediaan": 20.9,
+   "objecten_200mm": 159,
+   "breedtegraad": 51.33
+  },
+  {
+   "gemeente": "Noardeast-Fryslân",
+   "provincie": "Fryslân",
+   "bortle": 4,
+   "klasse": "Landelijk/voorstad-overgang",
+   "sqm_mediaan": 20.9,
+   "objecten_200mm": 157,
+   "breedtegraad": 53.35
+  },
+  {
+   "gemeente": "Oldambt",
+   "provincie": "Groningen",
+   "bortle": 4,
+   "klasse": "Landelijk/voorstad-overgang",
+   "sqm_mediaan": 20.9,
+   "objecten_200mm": 157,
+   "breedtegraad": 53.21
+  },
+  {
+   "gemeente": "Steenwijkerland",
+   "provincie": "Overijssel",
+   "bortle": 4,
+   "klasse": "Landelijk/voorstad-overgang",
+   "sqm_mediaan": 20.9,
+   "objecten_200mm": 158,
+   "breedtegraad": 52.76
+  },
+  {
+   "gemeente": "Veere",
+   "provincie": "Zeeland",
+   "bortle": 4,
+   "klasse": "Landelijk/voorstad-overgang",
+   "sqm_mediaan": 20.9,
+   "objecten_200mm": 158,
+   "breedtegraad": 51.56
+  },
+  {
+   "gemeente": "Alphen-Chaam",
+   "provincie": "Noord-Brabant",
+   "bortle": 4,
+   "klasse": "Landelijk/voorstad-overgang",
+   "sqm_mediaan": 20.8,
+   "objecten_200mm": 158,
+   "breedtegraad": 51.5
+  },
+  {
+   "gemeente": "Berkelland",
+   "provincie": "Gelderland",
+   "bortle": 4,
+   "klasse": "Landelijk/voorstad-overgang",
+   "sqm_mediaan": 20.8,
+   "objecten_200mm": 158,
+   "breedtegraad": 52.1
+  },
+  {
+   "gemeente": "Borsele",
+   "provincie": "Zeeland",
+   "bortle": 4,
+   "klasse": "Landelijk/voorstad-overgang",
+   "sqm_mediaan": 20.8,
+   "objecten_200mm": 159,
+   "breedtegraad": 51.43
+  },
+  {
+   "gemeente": "Ede",
+   "provincie": "Gelderland",
+   "bortle": 4,
+   "klasse": "Landelijk/voorstad-overgang",
+   "sqm_mediaan": 20.8,
+   "objecten_200mm": 158,
+   "breedtegraad": 52.08
+  },
+  {
+   "gemeente": "Lochem",
+   "provincie": "Gelderland",
+   "bortle": 4,
+   "klasse": "Landelijk/voorstad-overgang",
+   "sqm_mediaan": 20.8,
+   "objecten_200mm": 158,
+   "breedtegraad": 52.18
+  },
+  {
+   "gemeente": "Midden-Drenthe",
+   "provincie": "Drenthe",
+   "bortle": 4,
+   "klasse": "Landelijk/voorstad-overgang",
+   "sqm_mediaan": 20.8,
+   "objecten_200mm": 158,
+   "breedtegraad": 52.87
+  },
+  {
+   "gemeente": "Noordenveld",
+   "provincie": "Drenthe",
+   "bortle": 4,
+   "klasse": "Landelijk/voorstad-overgang",
+   "sqm_mediaan": 20.8,
+   "objecten_200mm": 157,
+   "breedtegraad": 53.1
+  },
+  {
+   "gemeente": "Olst-Wijhe",
+   "provincie": "Overijssel",
+   "bortle": 4,
+   "klasse": "Landelijk/voorstad-overgang",
+   "sqm_mediaan": 20.8,
+   "objecten_200mm": 158,
+   "breedtegraad": 52.37
+  },
+  {
+   "gemeente": "Opsterland",
+   "provincie": "Fryslân",
+   "bortle": 4,
+   "klasse": "Landelijk/voorstad-overgang",
+   "sqm_mediaan": 20.8,
+   "objecten_200mm": 157,
+   "breedtegraad": 53.05
+  },
+  {
+   "gemeente": "Reusel-De Mierden",
+   "provincie": "Noord-Brabant",
+   "bortle": 4,
+   "klasse": "Landelijk/voorstad-overgang",
+   "sqm_mediaan": 20.8,
+   "objecten_200mm": 159,
+   "breedtegraad": 51.38
+  },
+  {
+   "gemeente": "Stadskanaal",
+   "provincie": "Groningen",
+   "bortle": 4,
+   "klasse": "Landelijk/voorstad-overgang",
+   "sqm_mediaan": 20.8,
+   "objecten_200mm": 157,
+   "breedtegraad": 53
+  },
+  {
+   "gemeente": "Tholen",
+   "provincie": "Zeeland",
+   "bortle": 4,
+   "klasse": "Landelijk/voorstad-overgang",
+   "sqm_mediaan": 20.8,
+   "objecten_200mm": 158,
+   "breedtegraad": 51.57
+  },
+  {
+   "gemeente": "Waadhoeke",
+   "provincie": "Fryslân",
+   "bortle": 4,
+   "klasse": "Landelijk/voorstad-overgang",
+   "sqm_mediaan": 20.8,
+   "objecten_200mm": 157,
+   "breedtegraad": 53.23
+  },
+  {
+   "gemeente": "Zeewolde",
+   "provincie": "Flevoland",
+   "bortle": 4,
+   "klasse": "Landelijk/voorstad-overgang",
+   "sqm_mediaan": 20.8,
+   "objecten_200mm": 158,
+   "breedtegraad": 52.34
+  },
+  {
+   "gemeente": "Bronckhorst",
+   "provincie": "Gelderland",
+   "bortle": 4,
+   "klasse": "Landelijk/voorstad-overgang",
+   "sqm_mediaan": 20.7,
+   "objecten_200mm": 158,
+   "breedtegraad": 52.05
+  },
+  {
+   "gemeente": "Coevorden",
+   "provincie": "Drenthe",
+   "bortle": 4,
+   "klasse": "Landelijk/voorstad-overgang",
+   "sqm_mediaan": 20.7,
+   "objecten_200mm": 158,
+   "breedtegraad": 52.74
+  },
+  {
+   "gemeente": "Dalfsen",
+   "provincie": "Overijssel",
+   "bortle": 4,
+   "klasse": "Landelijk/voorstad-overgang",
+   "sqm_mediaan": 20.7,
+   "objecten_200mm": 158,
+   "breedtegraad": 52.51
+  },
+  {
+   "gemeente": "Elburg",
+   "provincie": "Gelderland",
+   "bortle": 4,
+   "klasse": "Landelijk/voorstad-overgang",
+   "sqm_mediaan": 20.7,
+   "objecten_200mm": 158,
+   "breedtegraad": 52.41
+  },
+  {
+   "gemeente": "Ermelo",
+   "provincie": "Gelderland",
+   "bortle": 4,
+   "klasse": "Landelijk/voorstad-overgang",
+   "sqm_mediaan": 20.7,
+   "objecten_200mm": 158,
+   "breedtegraad": 52.29
+  },
+  {
+   "gemeente": "Gemert-Bakel",
+   "provincie": "Noord-Brabant",
+   "bortle": 4,
+   "klasse": "Landelijk/voorstad-overgang",
+   "sqm_mediaan": 20.7,
+   "objecten_200mm": 158,
+   "breedtegraad": 51.54
+  },
+  {
+   "gemeente": "Gulpen-Wittem",
+   "provincie": "Limburg",
+   "bortle": 4,
+   "klasse": "Landelijk/voorstad-overgang",
+   "sqm_mediaan": 20.7,
+   "objecten_200mm": 160,
+   "breedtegraad": 50.8
+  },
+  {
+   "gemeente": "Hardenberg",
+   "provincie": "Overijssel",
+   "bortle": 4,
+   "klasse": "Landelijk/voorstad-overgang",
+   "sqm_mediaan": 20.7,
+   "objecten_200mm": 158,
+   "breedtegraad": 52.59
+  },
+  {
+   "gemeente": "Heerenveen",
+   "provincie": "Fryslân",
+   "bortle": 4,
+   "klasse": "Landelijk/voorstad-overgang",
+   "sqm_mediaan": 20.7,
+   "objecten_200mm": 157,
+   "breedtegraad": 53
+  },
+  {
+   "gemeente": "Oldebroek",
+   "provincie": "Gelderland",
+   "bortle": 4,
+   "klasse": "Landelijk/voorstad-overgang",
+   "sqm_mediaan": 20.7,
+   "objecten_200mm": 158,
+   "breedtegraad": 52.46
+  },
+  {
+   "gemeente": "Ommen",
+   "provincie": "Overijssel",
+   "bortle": 4,
+   "klasse": "Landelijk/voorstad-overgang",
+   "sqm_mediaan": 20.7,
+   "objecten_200mm": 158,
+   "breedtegraad": 52.52
+  },
+  {
+   "gemeente": "Rozendaal",
+   "provincie": "Gelderland",
+   "bortle": 4,
+   "klasse": "Landelijk/voorstad-overgang",
+   "sqm_mediaan": 20.7,
+   "objecten_200mm": 158,
+   "breedtegraad": 52.04
+  },
+  {
+   "gemeente": "Tubbergen",
+   "provincie": "Overijssel",
+   "bortle": 4,
+   "klasse": "Landelijk/voorstad-overgang",
+   "sqm_mediaan": 20.7,
+   "objecten_200mm": 158,
+   "breedtegraad": 52.41
+  },
+  {
+   "gemeente": "Westerkwartier",
+   "provincie": "Groningen",
+   "bortle": 4,
+   "klasse": "Landelijk/voorstad-overgang",
+   "sqm_mediaan": 20.7,
+   "objecten_200mm": 157,
+   "breedtegraad": 53.22
+  },
+  {
+   "gemeente": "Zundert",
+   "provincie": "Noord-Brabant",
+   "bortle": 4,
+   "klasse": "Landelijk/voorstad-overgang",
+   "sqm_mediaan": 20.7,
+   "objecten_200mm": 158,
+   "breedtegraad": 51.48
+  },
+  {
+   "gemeente": "Aalten",
+   "provincie": "Gelderland",
+   "bortle": 4,
+   "klasse": "Landelijk/voorstad-overgang",
+   "sqm_mediaan": 20.6,
+   "objecten_200mm": 158,
+   "breedtegraad": 51.92
+  },
+  {
+   "gemeente": "Bergeijk",
+   "provincie": "Noord-Brabant",
+   "bortle": 4,
+   "klasse": "Landelijk/voorstad-overgang",
+   "sqm_mediaan": 20.6,
+   "objecten_200mm": 159,
+   "breedtegraad": 51.31
+  },
+  {
+   "gemeente": "Bergen (NH)",
+   "provincie": "Noord-Holland",
+   "bortle": 4,
+   "klasse": "Landelijk/voorstad-overgang",
+   "sqm_mediaan": 20.6,
+   "objecten_200mm": 158,
+   "breedtegraad": 52.66
+  },
+  {
+   "gemeente": "Dantumadiel",
+   "provincie": "Fryslân",
+   "bortle": 4,
+   "klasse": "Landelijk/voorstad-overgang",
+   "sqm_mediaan": 20.6,
+   "objecten_200mm": 157,
+   "breedtegraad": 53.28
+  },
+  {
+   "gemeente": "Dronten",
+   "provincie": "Flevoland",
+   "bortle": 4,
+   "klasse": "Landelijk/voorstad-overgang",
+   "sqm_mediaan": 20.6,
+   "objecten_200mm": 158,
+   "breedtegraad": 52.51
+  },
+  {
+   "gemeente": "Eijsden-Margraten",
+   "provincie": "Limburg",
+   "bortle": 4,
+   "klasse": "Landelijk/voorstad-overgang",
+   "sqm_mediaan": 20.6,
+   "objecten_200mm": 160,
+   "breedtegraad": 50.8
+  },
+  {
+   "gemeente": "Enkhuizen",
+   "provincie": "Noord-Holland",
+   "bortle": 4,
+   "klasse": "Landelijk/voorstad-overgang",
+   "sqm_mediaan": 20.6,
+   "objecten_200mm": 158,
+   "breedtegraad": 52.76
+  },
+  {
+   "gemeente": "Epe",
+   "provincie": "Gelderland",
+   "bortle": 4,
+   "klasse": "Landelijk/voorstad-overgang",
+   "sqm_mediaan": 20.6,
+   "objecten_200mm": 158,
+   "breedtegraad": 52.33
+  },
+  {
+   "gemeente": "Goeree-Overflakkee",
+   "provincie": "Zuid-Holland",
+   "bortle": 4,
+   "klasse": "Landelijk/voorstad-overgang",
+   "sqm_mediaan": 20.6,
+   "objecten_200mm": 158,
+   "breedtegraad": 51.75
+  },
+  {
+   "gemeente": "Goes",
+   "provincie": "Zeeland",
+   "bortle": 4,
+   "klasse": "Landelijk/voorstad-overgang",
+   "sqm_mediaan": 20.6,
+   "objecten_200mm": 158,
+   "breedtegraad": 51.52
+  },
+  {
+   "gemeente": "Heerde",
+   "provincie": "Gelderland",
+   "bortle": 4,
+   "klasse": "Landelijk/voorstad-overgang",
+   "sqm_mediaan": 20.6,
+   "objecten_200mm": 158,
+   "breedtegraad": 52.41
+  },
+  {
+   "gemeente": "Land van Cuijk",
+   "provincie": "Noord-Brabant",
+   "bortle": 4,
+   "klasse": "Landelijk/voorstad-overgang",
+   "sqm_mediaan": 20.6,
+   "objecten_200mm": 158,
+   "breedtegraad": 51.66
+  },
+  {
+   "gemeente": "Losser",
+   "provincie": "Overijssel",
+   "bortle": 4,
+   "klasse": "Landelijk/voorstad-overgang",
+   "sqm_mediaan": 20.6,
+   "objecten_200mm": 158,
+   "breedtegraad": 52.3
+  },
+  {
+   "gemeente": "Montferland",
+   "provincie": "Gelderland",
+   "bortle": 4,
+   "klasse": "Landelijk/voorstad-overgang",
+   "sqm_mediaan": 20.6,
+   "objecten_200mm": 158,
+   "breedtegraad": 51.92
+  },
+  {
+   "gemeente": "Ooststellingwerf",
+   "provincie": "Fryslân",
+   "bortle": 4,
+   "klasse": "Landelijk/voorstad-overgang",
+   "sqm_mediaan": 20.6,
+   "objecten_200mm": 157,
+   "breedtegraad": 52.98
+  },
+  {
+   "gemeente": "Rijssen-Holten",
+   "provincie": "Overijssel",
+   "bortle": 4,
+   "klasse": "Landelijk/voorstad-overgang",
+   "sqm_mediaan": 20.6,
+   "objecten_200mm": 158,
+   "breedtegraad": 52.29
+  },
+  {
+   "gemeente": "Schagen",
+   "provincie": "Noord-Holland",
+   "bortle": 4,
+   "klasse": "Landelijk/voorstad-overgang",
+   "sqm_mediaan": 20.6,
+   "objecten_200mm": 158,
+   "breedtegraad": 52.79
+  },
+  {
+   "gemeente": "Staphorst",
+   "provincie": "Overijssel",
+   "bortle": 4,
+   "klasse": "Landelijk/voorstad-overgang",
+   "sqm_mediaan": 20.6,
+   "objecten_200mm": 158,
+   "breedtegraad": 52.63
+  },
+  {
+   "gemeente": "Vijfheerenlanden",
+   "provincie": "Utrecht",
+   "bortle": 4,
+   "klasse": "Landelijk/voorstad-overgang",
+   "sqm_mediaan": 20.6,
+   "objecten_200mm": 158,
+   "breedtegraad": 51.94
+  },
+  {
+   "gemeente": "Weststellingwerf",
+   "provincie": "Fryslân",
+   "bortle": 4,
+   "klasse": "Landelijk/voorstad-overgang",
+   "sqm_mediaan": 20.6,
+   "objecten_200mm": 158,
+   "breedtegraad": 52.88
+  },
+  {
+   "gemeente": "Achtkarspelen",
+   "provincie": "Fryslân",
+   "bortle": 4,
+   "klasse": "Landelijk/voorstad-overgang",
+   "sqm_mediaan": 20.5,
+   "objecten_200mm": 157,
+   "breedtegraad": 53.22
+  },
+  {
+   "gemeente": "Barneveld",
+   "provincie": "Gelderland",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 20.5,
+   "objecten_200mm": 127,
+   "breedtegraad": 52.17
+  },
+  {
+   "gemeente": "Bernheze",
+   "provincie": "Noord-Brabant",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 20.5,
+   "objecten_200mm": 127,
+   "breedtegraad": 51.68
+  },
+  {
+   "gemeente": "Brummen",
+   "provincie": "Gelderland",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 20.5,
+   "objecten_200mm": 127,
+   "breedtegraad": 52.11
+  },
+  {
+   "gemeente": "Buren",
+   "provincie": "Gelderland",
+   "bortle": 4,
+   "klasse": "Landelijk/voorstad-overgang",
+   "sqm_mediaan": 20.5,
+   "objecten_200mm": 158,
+   "breedtegraad": 51.94
+  },
+  {
+   "gemeente": "Cranendonck",
+   "provincie": "Noord-Brabant",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 20.5,
+   "objecten_200mm": 128,
+   "breedtegraad": 51.29
+  },
+  {
+   "gemeente": "Edam-Volendam",
+   "provincie": "Noord-Holland",
+   "bortle": 4,
+   "klasse": "Landelijk/voorstad-overgang",
+   "sqm_mediaan": 20.5,
+   "objecten_200mm": 158,
+   "breedtegraad": 52.54
+  },
+  {
+   "gemeente": "Hellendoorn",
+   "provincie": "Overijssel",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 20.5,
+   "objecten_200mm": 127,
+   "breedtegraad": 52.39
+  },
+  {
+   "gemeente": "Lopik",
+   "provincie": "Utrecht",
+   "bortle": 4,
+   "klasse": "Landelijk/voorstad-overgang",
+   "sqm_mediaan": 20.5,
+   "objecten_200mm": 158,
+   "breedtegraad": 51.99
+  },
+  {
+   "gemeente": "Midden-Groningen",
+   "provincie": "Groningen",
+   "bortle": 4,
+   "klasse": "Landelijk/voorstad-overgang",
+   "sqm_mediaan": 20.5,
+   "objecten_200mm": 157,
+   "breedtegraad": 53.2
+  },
+  {
+   "gemeente": "Molenlanden",
+   "provincie": "Zuid-Holland",
+   "bortle": 4,
+   "klasse": "Landelijk/voorstad-overgang",
+   "sqm_mediaan": 20.5,
+   "objecten_200mm": 158,
+   "breedtegraad": 51.88
+  },
+  {
+   "gemeente": "Oirschot",
+   "provincie": "Noord-Brabant",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 20.5,
+   "objecten_200mm": 127,
+   "breedtegraad": 51.49
+  },
+  {
+   "gemeente": "Oost Gelre",
+   "provincie": "Gelderland",
+   "bortle": 4,
+   "klasse": "Landelijk/voorstad-overgang",
+   "sqm_mediaan": 20.5,
+   "objecten_200mm": 158,
+   "breedtegraad": 52.01
+  },
+  {
+   "gemeente": "Oude IJsselstreek",
+   "provincie": "Gelderland",
+   "bortle": 4,
+   "klasse": "Landelijk/voorstad-overgang",
+   "sqm_mediaan": 20.5,
+   "objecten_200mm": 158,
+   "breedtegraad": 51.91
+  },
+  {
+   "gemeente": "Pekela",
+   "provincie": "Groningen",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 20.5,
+   "objecten_200mm": 126,
+   "breedtegraad": 53.07
+  },
+  {
+   "gemeente": "Putten",
+   "provincie": "Gelderland",
+   "bortle": 4,
+   "klasse": "Landelijk/voorstad-overgang",
+   "sqm_mediaan": 20.5,
+   "objecten_200mm": 158,
+   "breedtegraad": 52.24
+  },
+  {
+   "gemeente": "Tynaarlo",
+   "provincie": "Drenthe",
+   "bortle": 4,
+   "klasse": "Landelijk/voorstad-overgang",
+   "sqm_mediaan": 20.5,
+   "objecten_200mm": 157,
+   "breedtegraad": 53.1
+  },
+  {
+   "gemeente": "Utrechtse Heuvelrug",
+   "provincie": "Utrecht",
+   "bortle": 4,
+   "klasse": "Landelijk/voorstad-overgang",
+   "sqm_mediaan": 20.5,
+   "objecten_200mm": 158,
+   "breedtegraad": 52.03
+  },
+  {
+   "gemeente": "Valkenswaard",
+   "provincie": "Noord-Brabant",
+   "bortle": 4,
+   "klasse": "Landelijk/voorstad-overgang",
+   "sqm_mediaan": 20.5,
+   "objecten_200mm": 159,
+   "breedtegraad": 51.32
+  },
+  {
+   "gemeente": "Waterland",
+   "provincie": "Noord-Holland",
+   "bortle": 4,
+   "klasse": "Landelijk/voorstad-overgang",
+   "sqm_mediaan": 20.5,
+   "objecten_200mm": 158,
+   "breedtegraad": 52.45
+  },
+  {
+   "gemeente": "West Maas en Waal",
+   "provincie": "Gelderland",
+   "bortle": 4,
+   "klasse": "Landelijk/voorstad-overgang",
+   "sqm_mediaan": 20.5,
+   "objecten_200mm": 158,
+   "breedtegraad": 51.85
+  },
+  {
+   "gemeente": "Berg en Dal",
+   "provincie": "Gelderland",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 20.4,
+   "objecten_200mm": 127,
+   "breedtegraad": 51.82
+  },
+  {
+   "gemeente": "Deventer",
+   "provincie": "Overijssel",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 20.4,
+   "objecten_200mm": 127,
+   "breedtegraad": 52.27
+  },
+  {
+   "gemeente": "Doesburg",
+   "provincie": "Gelderland",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 20.4,
+   "objecten_200mm": 127,
+   "breedtegraad": 52.02
+  },
+  {
+   "gemeente": "Echt-Susteren",
+   "provincie": "Limburg",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 20.4,
+   "objecten_200mm": 128,
+   "breedtegraad": 51.09
+  },
+  {
+   "gemeente": "Eersel",
+   "provincie": "Noord-Brabant",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 20.4,
+   "objecten_200mm": 128,
+   "breedtegraad": 51.4
+  },
+  {
+   "gemeente": "Haaksbergen",
+   "provincie": "Overijssel",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 20.4,
+   "objecten_200mm": 127,
+   "breedtegraad": 52.16
+  },
+  {
+   "gemeente": "Hilvarenbeek",
+   "provincie": "Noord-Brabant",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 20.4,
+   "objecten_200mm": 127,
+   "breedtegraad": 51.48
+  },
+  {
+   "gemeente": "Kapelle",
+   "provincie": "Zeeland",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 20.4,
+   "objecten_200mm": 127,
+   "breedtegraad": 51.49
+  },
+  {
+   "gemeente": "Leudal",
+   "provincie": "Limburg",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 20.4,
+   "objecten_200mm": 128,
+   "breedtegraad": 51.24
+  },
+  {
+   "gemeente": "Rheden",
+   "provincie": "Gelderland",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 20.4,
+   "objecten_200mm": 127,
+   "breedtegraad": 52.03
+  },
+  {
+   "gemeente": "Twenterand",
+   "provincie": "Overijssel",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 20.4,
+   "objecten_200mm": 127,
+   "breedtegraad": 52.45
+  },
+  {
+   "gemeente": "Tytsjerksteradiel",
+   "provincie": "Fryslân",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 20.4,
+   "objecten_200mm": 126,
+   "breedtegraad": 53.2
+  },
+  {
+   "gemeente": "Wijk bij Duurstede",
+   "provincie": "Utrecht",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 20.4,
+   "objecten_200mm": 127,
+   "breedtegraad": 51.99
+  },
+  {
+   "gemeente": "Zwartewaterland",
+   "provincie": "Overijssel",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 20.4,
+   "objecten_200mm": 127,
+   "breedtegraad": 52.6
+  },
+  {
+   "gemeente": "Altena",
+   "provincie": "Noord-Brabant",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 20.3,
+   "objecten_200mm": 127,
+   "breedtegraad": 51.77
+  },
+  {
+   "gemeente": "Bladel",
+   "provincie": "Noord-Brabant",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 20.3,
+   "objecten_200mm": 128,
+   "breedtegraad": 51.37
+  },
+  {
+   "gemeente": "Boekel",
+   "provincie": "Noord-Brabant",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 20.3,
+   "objecten_200mm": 127,
+   "breedtegraad": 51.61
+  },
+  {
+   "gemeente": "Den Helder",
+   "provincie": "Noord-Holland",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 20.3,
+   "objecten_200mm": 126,
+   "breedtegraad": 52.94
+  },
+  {
+   "gemeente": "Deurne",
+   "provincie": "Noord-Brabant",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 20.3,
+   "objecten_200mm": 128,
+   "breedtegraad": 51.44
+  },
+  {
+   "gemeente": "Gennep",
+   "provincie": "Limburg",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 20.3,
+   "objecten_200mm": 127,
+   "breedtegraad": 51.7
+  },
+  {
+   "gemeente": "Hoeksche Waard",
+   "provincie": "Zuid-Holland",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 20.3,
+   "objecten_200mm": 127,
+   "breedtegraad": 51.76
+  },
+  {
+   "gemeente": "Hof van Twente",
+   "provincie": "Overijssel",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 20.3,
+   "objecten_200mm": 127,
+   "breedtegraad": 52.24
+  },
+  {
+   "gemeente": "Medemblik",
+   "provincie": "Noord-Holland",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 20.3,
+   "objecten_200mm": 127,
+   "breedtegraad": 52.77
+  },
+  {
+   "gemeente": "Raalte",
+   "provincie": "Overijssel",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 20.3,
+   "objecten_200mm": 127,
+   "breedtegraad": 52.39
+  },
+  {
+   "gemeente": "Rucphen",
+   "provincie": "Noord-Brabant",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 20.3,
+   "objecten_200mm": 127,
+   "breedtegraad": 51.52
+  },
+  {
+   "gemeente": "Scherpenzeel",
+   "provincie": "Gelderland",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 20.3,
+   "objecten_200mm": 127,
+   "breedtegraad": 52.09
+  },
+  {
+   "gemeente": "Venray",
+   "provincie": "Limburg",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 20.3,
+   "objecten_200mm": 127,
+   "breedtegraad": 51.52
+  },
+  {
+   "gemeente": "Wierden",
+   "provincie": "Overijssel",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 20.3,
+   "objecten_200mm": 127,
+   "breedtegraad": 52.34
+  },
+  {
+   "gemeente": "Woudenberg",
+   "provincie": "Utrecht",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 20.3,
+   "objecten_200mm": 127,
+   "breedtegraad": 52.08
+  },
+  {
+   "gemeente": "Asten",
+   "provincie": "Noord-Brabant",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 20.2,
+   "objecten_200mm": 128,
+   "breedtegraad": 51.39
+  },
+  {
+   "gemeente": "Drechterland",
+   "provincie": "Noord-Holland",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 20.2,
+   "objecten_200mm": 127,
+   "breedtegraad": 52.66
+  },
+  {
+   "gemeente": "Drimmelen",
+   "provincie": "Noord-Brabant",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 20.2,
+   "objecten_200mm": 127,
+   "breedtegraad": 51.7
+  },
+  {
+   "gemeente": "Goirle",
+   "provincie": "Noord-Brabant",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 20.2,
+   "objecten_200mm": 127,
+   "breedtegraad": 51.51
+  },
+  {
+   "gemeente": "Heeze-Leende",
+   "provincie": "Noord-Brabant",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 20.2,
+   "objecten_200mm": 128,
+   "breedtegraad": 51.36
+  },
+  {
+   "gemeente": "Houten",
+   "provincie": "Utrecht",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 20.2,
+   "objecten_200mm": 127,
+   "breedtegraad": 52
+  },
+  {
+   "gemeente": "Leeuwarden",
+   "provincie": "Fryslân",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 20.2,
+   "objecten_200mm": 126,
+   "breedtegraad": 53.17
+  },
+  {
+   "gemeente": "Maashorst",
+   "provincie": "Noord-Brabant",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 20.2,
+   "objecten_200mm": 127,
+   "breedtegraad": 51.69
+  },
+  {
+   "gemeente": "Meppel",
+   "provincie": "Drenthe",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 20.2,
+   "objecten_200mm": 127,
+   "breedtegraad": 52.72
+  },
+  {
+   "gemeente": "Noordoostpolder",
+   "provincie": "Flevoland",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 20.2,
+   "objecten_200mm": 127,
+   "breedtegraad": 52.72
+  },
+  {
+   "gemeente": "Opmeer",
+   "provincie": "Noord-Holland",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 20.2,
+   "objecten_200mm": 127,
+   "breedtegraad": 52.72
+  },
+  {
+   "gemeente": "Oudewater",
+   "provincie": "Utrecht",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 20.2,
+   "objecten_200mm": 127,
+   "breedtegraad": 52.03
+  },
+  {
+   "gemeente": "Peel en Maas",
+   "provincie": "Limburg",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 20.2,
+   "objecten_200mm": 128,
+   "breedtegraad": 51.34
+  },
+  {
+   "gemeente": "Renswoude",
+   "provincie": "Utrecht",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 20.2,
+   "objecten_200mm": 127,
+   "breedtegraad": 52.07
+  },
+  {
+   "gemeente": "Roerdalen",
+   "provincie": "Limburg",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 20.2,
+   "objecten_200mm": 128,
+   "breedtegraad": 51.15
+  },
+  {
+   "gemeente": "Valkenburg aan de Geul",
+   "provincie": "Limburg",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 20.2,
+   "objecten_200mm": 128,
+   "breedtegraad": 50.86
+  },
+  {
+   "gemeente": "Voorst",
+   "provincie": "Gelderland",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 20.2,
+   "objecten_200mm": 127,
+   "breedtegraad": 52.23
+  },
+  {
+   "gemeente": "Weert",
+   "provincie": "Limburg",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 20.2,
+   "objecten_200mm": 128,
+   "breedtegraad": 51.23
+  },
+  {
+   "gemeente": "Wijdemeren",
+   "provincie": "Noord-Holland",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 20.2,
+   "objecten_200mm": 127,
+   "breedtegraad": 52.23
+  },
+  {
+   "gemeente": "Winterswijk",
+   "provincie": "Gelderland",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 20.2,
+   "objecten_200mm": 127,
+   "breedtegraad": 51.97
+  },
+  {
+   "gemeente": "Woensdrecht",
+   "provincie": "Noord-Brabant",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 20.2,
+   "objecten_200mm": 128,
+   "breedtegraad": 51.41
+  },
+  {
+   "gemeente": "Zandvoort",
+   "provincie": "Noord-Holland",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 20.2,
+   "objecten_200mm": 127,
+   "breedtegraad": 52.36
+  },
+  {
+   "gemeente": "Borne",
+   "provincie": "Overijssel",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 20.1,
+   "objecten_200mm": 127,
+   "breedtegraad": 52.31
+  },
+  {
+   "gemeente": "Druten",
+   "provincie": "Gelderland",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 20.1,
+   "objecten_200mm": 127,
+   "breedtegraad": 51.88
+  },
+  {
+   "gemeente": "Eemnes",
+   "provincie": "Utrecht",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 20.1,
+   "objecten_200mm": 127,
+   "breedtegraad": 52.25
+  },
+  {
+   "gemeente": "Hardinxveld-Giessendam",
+   "provincie": "Zuid-Holland",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 20.1,
+   "objecten_200mm": 127,
+   "breedtegraad": 51.83
+  },
+  {
+   "gemeente": "Hoorn",
+   "provincie": "Noord-Holland",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 20.1,
+   "objecten_200mm": 127,
+   "breedtegraad": 52.63
+  },
+  {
+   "gemeente": "Koggenland",
+   "provincie": "Noord-Holland",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 20.1,
+   "objecten_200mm": 127,
+   "breedtegraad": 52.64
+  },
+  {
+   "gemeente": "Montfoort",
+   "provincie": "Utrecht",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 20.1,
+   "objecten_200mm": 127,
+   "breedtegraad": 52.05
+  },
+  {
+   "gemeente": "Mook en Middelaar",
+   "provincie": "Limburg",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 20.1,
+   "objecten_200mm": 127,
+   "breedtegraad": 51.75
+  },
+  {
+   "gemeente": "Nederweert",
+   "provincie": "Limburg",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 20.1,
+   "objecten_200mm": 128,
+   "breedtegraad": 51.29
+  },
+  {
+   "gemeente": "Oisterwijk",
+   "provincie": "Noord-Brabant",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 20.1,
+   "objecten_200mm": 127,
+   "breedtegraad": 51.56
+  },
+  {
+   "gemeente": "Overbetuwe",
+   "provincie": "Gelderland",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 20.1,
+   "objecten_200mm": 127,
+   "breedtegraad": 51.92
+  },
+  {
+   "gemeente": "Renkum",
+   "provincie": "Gelderland",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 20.1,
+   "objecten_200mm": 127,
+   "breedtegraad": 51.99
+  },
+  {
+   "gemeente": "Rhenen",
+   "provincie": "Utrecht",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 20.1,
+   "objecten_200mm": 127,
+   "breedtegraad": 51.98
+  },
+  {
+   "gemeente": "Smallingerland",
+   "provincie": "Fryslân",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 20.1,
+   "objecten_200mm": 126,
+   "breedtegraad": 53.11
+  },
+  {
+   "gemeente": "Voerendaal",
+   "provincie": "Limburg",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 20.1,
+   "objecten_200mm": 128,
+   "breedtegraad": 50.87
+  },
+  {
+   "gemeente": "Vught",
+   "provincie": "Noord-Brabant",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 20.1,
+   "objecten_200mm": 127,
+   "breedtegraad": 51.65
+  },
+  {
+   "gemeente": "West Betuwe",
+   "provincie": "Gelderland",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 20.1,
+   "objecten_200mm": 127,
+   "breedtegraad": 51.86
+  },
+  {
+   "gemeente": "Wijchen",
+   "provincie": "Gelderland",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 20.1,
+   "objecten_200mm": 127,
+   "breedtegraad": 51.82
+  },
+  {
+   "gemeente": "Wormerland",
+   "provincie": "Noord-Holland",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 20.1,
+   "objecten_200mm": 127,
+   "breedtegraad": 52.5
+  },
+  {
+   "gemeente": "Boxtel",
+   "provincie": "Noord-Brabant",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 20,
+   "objecten_200mm": 127,
+   "breedtegraad": 51.58
+  },
+  {
+   "gemeente": "Bunschoten",
+   "provincie": "Utrecht",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 20,
+   "objecten_200mm": 127,
+   "breedtegraad": 52.24
+  },
+  {
+   "gemeente": "Culemborg",
+   "provincie": "Gelderland",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 20,
+   "objecten_200mm": 127,
+   "breedtegraad": 51.95
+  },
+  {
+   "gemeente": "Eemsdelta",
+   "provincie": "Groningen",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 20,
+   "objecten_200mm": 126,
+   "breedtegraad": 53.33
+  },
+  {
+   "gemeente": "Gilze en Rijen",
+   "provincie": "Noord-Brabant",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 20,
+   "objecten_200mm": 127,
+   "breedtegraad": 51.56
+  },
+  {
+   "gemeente": "Gooise Meren",
+   "provincie": "Noord-Holland",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 20,
+   "objecten_200mm": 127,
+   "breedtegraad": 52.32
+  },
+  {
+   "gemeente": "Halderberge",
+   "provincie": "Noord-Brabant",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 20,
+   "objecten_200mm": 127,
+   "breedtegraad": 51.59
+  },
+  {
+   "gemeente": "Heumen",
+   "provincie": "Gelderland",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 20,
+   "objecten_200mm": 127,
+   "breedtegraad": 51.78
+  },
+  {
+   "gemeente": "Landsmeer",
+   "provincie": "Noord-Holland",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 20,
+   "objecten_200mm": 127,
+   "breedtegraad": 52.45
+  },
+  {
+   "gemeente": "Maasgouw",
+   "provincie": "Limburg",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 20,
+   "objecten_200mm": 128,
+   "breedtegraad": 51.16
+  },
+  {
+   "gemeente": "Meerssen",
+   "provincie": "Limburg",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 20,
+   "objecten_200mm": 128,
+   "breedtegraad": 50.9
+  },
+  {
+   "gemeente": "Moerdijk",
+   "provincie": "Noord-Brabant",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 20,
+   "objecten_200mm": 127,
+   "breedtegraad": 51.66
+  },
+  {
+   "gemeente": "Neder-Betuwe",
+   "provincie": "Gelderland",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 20,
+   "objecten_200mm": 127,
+   "breedtegraad": 51.92
+  },
+  {
+   "gemeente": "Purmerend",
+   "provincie": "Noord-Holland",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 20,
+   "objecten_200mm": 127,
+   "breedtegraad": 52.54
+  },
+  {
+   "gemeente": "Roosendaal",
+   "provincie": "Noord-Brabant",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 20,
+   "objecten_200mm": 127,
+   "breedtegraad": 51.51
+  },
+  {
+   "gemeente": "Simpelveld",
+   "provincie": "Limburg",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 20,
+   "objecten_200mm": 128,
+   "breedtegraad": 50.83
+  },
+  {
+   "gemeente": "Sint-Michielsgestel",
+   "provincie": "Noord-Brabant",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 20,
+   "objecten_200mm": 127,
+   "breedtegraad": 51.66
+  },
+  {
+   "gemeente": "Steenbergen",
+   "provincie": "Noord-Brabant",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 20,
+   "objecten_200mm": 127,
+   "breedtegraad": 51.6
+  },
+  {
+   "gemeente": "Stichtse Vecht",
+   "provincie": "Utrecht",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 20,
+   "objecten_200mm": 127,
+   "breedtegraad": 52.18
+  },
+  {
+   "gemeente": "Veendam",
+   "provincie": "Groningen",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 20,
+   "objecten_200mm": 126,
+   "breedtegraad": 53.09
+  },
+  {
+   "gemeente": "Alkmaar",
+   "provincie": "Noord-Holland",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 19.9,
+   "objecten_200mm": 127,
+   "breedtegraad": 52.6
+  },
+  {
+   "gemeente": "Apeldoorn",
+   "provincie": "Gelderland",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 19.9,
+   "objecten_200mm": 127,
+   "breedtegraad": 52.19
+  },
+  {
+   "gemeente": "Blaricum",
+   "provincie": "Noord-Holland",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 19.9,
+   "objecten_200mm": 127,
+   "breedtegraad": 52.28
+  },
+  {
+   "gemeente": "Bunnik",
+   "provincie": "Utrecht",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 19.9,
+   "objecten_200mm": 127,
+   "breedtegraad": 52.04
+  },
+  {
+   "gemeente": "Hattem",
+   "provincie": "Gelderland",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 19.9,
+   "objecten_200mm": 127,
+   "breedtegraad": 52.47
+  },
+  {
+   "gemeente": "Leusden",
+   "provincie": "Utrecht",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 19.9,
+   "objecten_200mm": 127,
+   "breedtegraad": 52.12
+  },
+  {
+   "gemeente": "Meierijstad",
+   "provincie": "Noord-Brabant",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 19.9,
+   "objecten_200mm": 127,
+   "breedtegraad": 51.59
+  },
+  {
+   "gemeente": "Nijkerk",
+   "provincie": "Gelderland",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 19.9,
+   "objecten_200mm": 127,
+   "breedtegraad": 52.21
+  },
+  {
+   "gemeente": "Terneuzen",
+   "provincie": "Zeeland",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 19.9,
+   "objecten_200mm": 128,
+   "breedtegraad": 51.3
+  },
+  {
+   "gemeente": "Tiel",
+   "provincie": "Gelderland",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 19.9,
+   "objecten_200mm": 127,
+   "breedtegraad": 51.89
+  },
+  {
+   "gemeente": "Zevenaar",
+   "provincie": "Gelderland",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 19.9,
+   "objecten_200mm": 127,
+   "breedtegraad": 51.92
+  },
+  {
+   "gemeente": "Zutphen",
+   "provincie": "Gelderland",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 19.9,
+   "objecten_200mm": 127,
+   "breedtegraad": 52.14
+  },
+  {
+   "gemeente": "Arnhem",
+   "provincie": "Gelderland",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 19.8,
+   "objecten_200mm": 127,
+   "breedtegraad": 52
+  },
+  {
+   "gemeente": "Beesel",
+   "provincie": "Limburg",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 19.8,
+   "objecten_200mm": 128,
+   "breedtegraad": 51.27
+  },
+  {
+   "gemeente": "Bloemendaal",
+   "provincie": "Noord-Holland",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 19.8,
+   "objecten_200mm": 127,
+   "breedtegraad": 52.39
+  },
+  {
+   "gemeente": "Castricum",
+   "provincie": "Noord-Holland",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 19.8,
+   "objecten_200mm": 127,
+   "breedtegraad": 52.56
+  },
+  {
+   "gemeente": "De Bilt",
+   "provincie": "Utrecht",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 19.8,
+   "objecten_200mm": 127,
+   "breedtegraad": 52.14
+  },
+  {
+   "gemeente": "Dordrecht",
+   "provincie": "Zuid-Holland",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 19.8,
+   "objecten_200mm": 127,
+   "breedtegraad": 51.78
+  },
+  {
+   "gemeente": "Harderwijk",
+   "provincie": "Gelderland",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 19.8,
+   "objecten_200mm": 127,
+   "breedtegraad": 52.34
+  },
+  {
+   "gemeente": "Hoogeveen",
+   "provincie": "Drenthe",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 19.8,
+   "objecten_200mm": 127,
+   "breedtegraad": 52.72
+  },
+  {
+   "gemeente": "IJsselstein",
+   "provincie": "Utrecht",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 19.8,
+   "objecten_200mm": 127,
+   "breedtegraad": 52.03
+  },
+  {
+   "gemeente": "Laarbeek",
+   "provincie": "Noord-Brabant",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 19.8,
+   "objecten_200mm": 127,
+   "breedtegraad": 51.53
+  },
+  {
+   "gemeente": "Loon op Zand",
+   "provincie": "Noord-Brabant",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 19.8,
+   "objecten_200mm": 127,
+   "breedtegraad": 51.64
+  },
+  {
+   "gemeente": "Maasdriel",
+   "provincie": "Gelderland",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 19.8,
+   "objecten_200mm": 127,
+   "breedtegraad": 51.78
+  },
+  {
+   "gemeente": "Middelburg",
+   "provincie": "Zeeland",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 19.8,
+   "objecten_200mm": 127,
+   "breedtegraad": 51.5
+  },
+  {
+   "gemeente": "Noordwijk",
+   "provincie": "Zuid-Holland",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 19.8,
+   "objecten_200mm": 127,
+   "breedtegraad": 52.27
+  },
+  {
+   "gemeente": "Soest",
+   "provincie": "Utrecht",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 19.8,
+   "objecten_200mm": 127,
+   "breedtegraad": 52.16
+  },
+  {
+   "gemeente": "Uitgeest",
+   "provincie": "Noord-Holland",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 19.8,
+   "objecten_200mm": 127,
+   "breedtegraad": 52.52
+  },
+  {
+   "gemeente": "Waalwijk",
+   "provincie": "Noord-Brabant",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 19.8,
+   "objecten_200mm": 127,
+   "breedtegraad": 51.69
+  },
+  {
+   "gemeente": "Wageningen",
+   "provincie": "Gelderland",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 19.8,
+   "objecten_200mm": 127,
+   "breedtegraad": 51.97
+  },
+  {
+   "gemeente": "Woerden",
+   "provincie": "Utrecht",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 19.8,
+   "objecten_200mm": 127,
+   "breedtegraad": 52.11
+  },
+  {
+   "gemeente": "Beek",
+   "provincie": "Limburg",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 19.7,
+   "objecten_200mm": 128,
+   "breedtegraad": 50.93
+  },
+  {
+   "gemeente": "Beuningen",
+   "provincie": "Gelderland",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 19.7,
+   "objecten_200mm": 127,
+   "breedtegraad": 51.86
+  },
+  {
+   "gemeente": "Doetinchem",
+   "provincie": "Gelderland",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 19.7,
+   "objecten_200mm": 127,
+   "breedtegraad": 51.96
+  },
+  {
+   "gemeente": "Etten-Leur",
+   "provincie": "Noord-Brabant",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 19.7,
+   "objecten_200mm": 127,
+   "breedtegraad": 51.58
+  },
+  {
+   "gemeente": "Geldrop-Mierlo",
+   "provincie": "Noord-Brabant",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 19.7,
+   "objecten_200mm": 128,
+   "breedtegraad": 51.43
+  },
+  {
+   "gemeente": "Heiloo",
+   "provincie": "Noord-Holland",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 19.7,
+   "objecten_200mm": 127,
+   "breedtegraad": 52.6
+  },
+  {
+   "gemeente": "Heusden",
+   "provincie": "Noord-Brabant",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 19.7,
+   "objecten_200mm": 127,
+   "breedtegraad": 51.7
+  },
+  {
+   "gemeente": "Kampen",
+   "provincie": "Overijssel",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 19.7,
+   "objecten_200mm": 127,
+   "breedtegraad": 52.56
+  },
+  {
+   "gemeente": "Krimpenerwaard",
+   "provincie": "Zuid-Holland",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 19.7,
+   "objecten_200mm": 127,
+   "breedtegraad": 51.95
+  },
+  {
+   "gemeente": "Oldenzaal",
+   "provincie": "Overijssel",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 19.7,
+   "objecten_200mm": 127,
+   "breedtegraad": 52.31
+  },
+  {
+   "gemeente": "Oostzaan",
+   "provincie": "Noord-Holland",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 19.7,
+   "objecten_200mm": 127,
+   "breedtegraad": 52.45
+  },
+  {
+   "gemeente": "Reimerswaal",
+   "provincie": "Zeeland",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 19.7,
+   "objecten_200mm": 128,
+   "breedtegraad": 51.44
+  },
+  {
+   "gemeente": "Sliedrecht",
+   "provincie": "Zuid-Holland",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 19.7,
+   "objecten_200mm": 127,
+   "breedtegraad": 51.83
+  },
+  {
+   "gemeente": "Someren",
+   "provincie": "Noord-Brabant",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 19.7,
+   "objecten_200mm": 128,
+   "breedtegraad": 51.38
+  },
+  {
+   "gemeente": "Veldhoven",
+   "provincie": "Noord-Brabant",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 19.7,
+   "objecten_200mm": 128,
+   "breedtegraad": 51.41
+  },
+  {
+   "gemeente": "Waalre",
+   "provincie": "Noord-Brabant",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 19.7,
+   "objecten_200mm": 128,
+   "breedtegraad": 51.39
+  },
+  {
+   "gemeente": "Baarn",
+   "provincie": "Utrecht",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 19.6,
+   "objecten_200mm": 127,
+   "breedtegraad": 52.2
+  },
+  {
+   "gemeente": "Beekdaelen",
+   "provincie": "Limburg",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 19.6,
+   "objecten_200mm": 128,
+   "breedtegraad": 50.94
+  },
+  {
+   "gemeente": "Best",
+   "provincie": "Noord-Brabant",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 19.6,
+   "objecten_200mm": 127,
+   "breedtegraad": 51.51
+  },
+  {
+   "gemeente": "Duiven",
+   "provincie": "Gelderland",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 19.6,
+   "objecten_200mm": 127,
+   "breedtegraad": 51.95
+  },
+  {
+   "gemeente": "Emmen",
+   "provincie": "Drenthe",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 19.6,
+   "objecten_200mm": 127,
+   "breedtegraad": 52.75
+  },
+  {
+   "gemeente": "Huizen",
+   "provincie": "Noord-Holland",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 19.6,
+   "objecten_200mm": 127,
+   "breedtegraad": 52.3
+  },
+  {
+   "gemeente": "Lingewaard",
+   "provincie": "Gelderland",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 19.6,
+   "objecten_200mm": 127,
+   "breedtegraad": 51.9
+  },
+  {
+   "gemeente": "Nuenen, Gerwen en Nederwetten",
+   "provincie": "Noord-Brabant",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 19.6,
+   "objecten_200mm": 127,
+   "breedtegraad": 51.48
+  },
+  {
+   "gemeente": "Roermond",
+   "provincie": "Limburg",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 19.6,
+   "objecten_200mm": 128,
+   "breedtegraad": 51.2
+  },
+  {
+   "gemeente": "Assen",
+   "provincie": "Drenthe",
+   "bortle": 6,
+   "klasse": "Heldere voorstad",
+   "sqm_mediaan": 19.5,
+   "objecten_200mm": 91,
+   "breedtegraad": 53
+  },
+  {
+   "gemeente": "Gorinchem",
+   "provincie": "Zuid-Holland",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 19.5,
+   "objecten_200mm": 127,
+   "breedtegraad": 51.84
+  },
+  {
+   "gemeente": "Laren",
+   "provincie": "Noord-Holland",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 19.5,
+   "objecten_200mm": 127,
+   "breedtegraad": 52.25
+  },
+  {
+   "gemeente": "Zwolle",
+   "provincie": "Overijssel",
+   "bortle": 5,
+   "klasse": "Voorstad",
+   "sqm_mediaan": 19.5,
+   "objecten_200mm": 127,
+   "breedtegraad": 52.52
+  },
+  {
+   "gemeente": "Bodegraven-Reeuwijk",
+   "provincie": "Zuid-Holland",
+   "bortle": 6,
+   "klasse": "Heldere voorstad",
+   "sqm_mediaan": 19.4,
+   "objecten_200mm": 92,
+   "breedtegraad": 52.07
+  },
+  {
+   "gemeente": "Brunssum",
+   "provincie": "Limburg",
+   "bortle": 6,
+   "klasse": "Heldere voorstad",
+   "sqm_mediaan": 19.4,
+   "objecten_200mm": 93,
+   "breedtegraad": 50.94
+  },
+  {
+   "gemeente": "Dongen",
+   "provincie": "Noord-Brabant",
+   "bortle": 6,
+   "klasse": "Heldere voorstad",
+   "sqm_mediaan": 19.4,
+   "objecten_200mm": 92,
+   "breedtegraad": 51.64
+  },
+  {
+   "gemeente": "Horst aan de Maas",
+   "provincie": "Limburg",
+   "bortle": 6,
+   "klasse": "Heldere voorstad",
+   "sqm_mediaan": 19.4,
+   "objecten_200mm": 93,
+   "breedtegraad": 51.44
+  },
+  {
+   "gemeente": "Kerkrade",
+   "provincie": "Limburg",
+   "bortle": 6,
+   "klasse": "Heldere voorstad",
+   "sqm_mediaan": 19.4,
+   "objecten_200mm": 93,
+   "breedtegraad": 50.87
+  },
+  {
+   "gemeente": "Landgraaf",
+   "provincie": "Limburg",
+   "bortle": 6,
+   "klasse": "Heldere voorstad",
+   "sqm_mediaan": 19.4,
+   "objecten_200mm": 93,
+   "breedtegraad": 50.91
+  },
+  {
+   "gemeente": "Son en Breugel",
+   "provincie": "Noord-Brabant",
+   "bortle": 6,
+   "klasse": "Heldere voorstad",
+   "sqm_mediaan": 19.4,
+   "objecten_200mm": 92,
+   "breedtegraad": 51.52
+  },
+  {
+   "gemeente": "Veenendaal",
+   "provincie": "Utrecht",
+   "bortle": 6,
+   "klasse": "Heldere voorstad",
+   "sqm_mediaan": 19.4,
+   "objecten_200mm": 92,
+   "breedtegraad": 52.02
+  },
+  {
+   "gemeente": "Zaanstad",
+   "provincie": "Noord-Holland",
+   "bortle": 6,
+   "klasse": "Heldere voorstad",
+   "sqm_mediaan": 19.4,
+   "objecten_200mm": 92,
+   "breedtegraad": 52.46
+  },
+  {
+   "gemeente": "Zeist",
+   "provincie": "Utrecht",
+   "bortle": 6,
+   "klasse": "Heldere voorstad",
+   "sqm_mediaan": 19.4,
+   "objecten_200mm": 92,
+   "breedtegraad": 52.1
+  },
+  {
+   "gemeente": "Almelo",
+   "provincie": "Overijssel",
+   "bortle": 6,
+   "klasse": "Heldere voorstad",
+   "sqm_mediaan": 19.3,
+   "objecten_200mm": 92,
+   "breedtegraad": 52.35
+  },
+  {
+   "gemeente": "De Ronde Venen",
+   "provincie": "Utrecht",
+   "bortle": 6,
+   "klasse": "Heldere voorstad",
+   "sqm_mediaan": 19.3,
+   "objecten_200mm": 92,
+   "breedtegraad": 52.23
+  },
+  {
+   "gemeente": "Groningen",
+   "provincie": "Groningen",
+   "bortle": 6,
+   "klasse": "Heldere voorstad",
+   "sqm_mediaan": 19.3,
+   "objecten_200mm": 91,
+   "breedtegraad": 53.22
+  },
+  {
+   "gemeente": "Heerlen",
+   "provincie": "Limburg",
+   "bortle": 6,
+   "klasse": "Heldere voorstad",
+   "sqm_mediaan": 19.3,
+   "objecten_200mm": 93,
+   "breedtegraad": 50.89
+  },
+  {
+   "gemeente": "Hillegom",
+   "provincie": "Zuid-Holland",
+   "bortle": 6,
+   "klasse": "Heldere voorstad",
+   "sqm_mediaan": 19.3,
+   "objecten_200mm": 92,
+   "breedtegraad": 52.3
+  },
+  {
+   "gemeente": "Hilversum",
+   "provincie": "Noord-Holland",
+   "bortle": 6,
+   "klasse": "Heldere voorstad",
+   "sqm_mediaan": 19.3,
+   "objecten_200mm": 92,
+   "breedtegraad": 52.22
+  },
+  {
+   "gemeente": "Oss",
+   "provincie": "Noord-Brabant",
+   "bortle": 6,
+   "klasse": "Heldere voorstad",
+   "sqm_mediaan": 19.3,
+   "objecten_200mm": 92,
+   "breedtegraad": 51.78
+  },
+  {
+   "gemeente": "Sittard-Geleen",
+   "provincie": "Limburg",
+   "bortle": 6,
+   "klasse": "Heldere voorstad",
+   "sqm_mediaan": 19.3,
+   "objecten_200mm": 93,
+   "breedtegraad": 51
+  },
+  {
+   "gemeente": "Westervoort",
+   "provincie": "Gelderland",
+   "bortle": 6,
+   "klasse": "Heldere voorstad",
+   "sqm_mediaan": 19.3,
+   "objecten_200mm": 92,
+   "breedtegraad": 51.96
+  },
+  {
+   "gemeente": "'s-Hertogenbosch",
+   "provincie": "Noord-Brabant",
+   "bortle": 6,
+   "klasse": "Heldere voorstad",
+   "sqm_mediaan": 19.2,
+   "objecten_200mm": 92,
+   "breedtegraad": 51.72
+  },
+  {
+   "gemeente": "Almere",
+   "provincie": "Flevoland",
+   "bortle": 6,
+   "klasse": "Heldere voorstad",
+   "sqm_mediaan": 19.2,
+   "objecten_200mm": 92,
+   "breedtegraad": 52.4
+  },
+  {
+   "gemeente": "Bergen op Zoom",
+   "provincie": "Noord-Brabant",
+   "bortle": 6,
+   "klasse": "Heldere voorstad",
+   "sqm_mediaan": 19.2,
+   "objecten_200mm": 92,
+   "breedtegraad": 51.5
+  },
+  {
+   "gemeente": "Diemen",
+   "provincie": "Noord-Holland",
+   "bortle": 6,
+   "klasse": "Heldere voorstad",
+   "sqm_mediaan": 19.2,
+   "objecten_200mm": 92,
+   "breedtegraad": 52.34
+  },
+  {
+   "gemeente": "Heemstede",
+   "provincie": "Noord-Holland",
+   "bortle": 6,
+   "klasse": "Heldere voorstad",
+   "sqm_mediaan": 19.2,
+   "objecten_200mm": 92,
+   "breedtegraad": 52.34
+  },
+  {
+   "gemeente": "Helmond",
+   "provincie": "Noord-Brabant",
+   "bortle": 6,
+   "klasse": "Heldere voorstad",
+   "sqm_mediaan": 19.2,
+   "objecten_200mm": 92,
+   "breedtegraad": 51.48
+  },
+  {
+   "gemeente": "Hengelo (O)",
+   "provincie": "Overijssel",
+   "bortle": 6,
+   "klasse": "Heldere voorstad",
+   "sqm_mediaan": 19.2,
+   "objecten_200mm": 92,
+   "breedtegraad": 52.25
+  },
+  {
+   "gemeente": "Maastricht",
+   "provincie": "Limburg",
+   "bortle": 6,
+   "klasse": "Heldere voorstad",
+   "sqm_mediaan": 19.2,
+   "objecten_200mm": 93,
+   "breedtegraad": 50.85
+  },
+  {
+   "gemeente": "Zaltbommel",
+   "provincie": "Gelderland",
+   "bortle": 6,
+   "klasse": "Heldere voorstad",
+   "sqm_mediaan": 19.2,
+   "objecten_200mm": 92,
+   "breedtegraad": 51.79
+  },
+  {
+   "gemeente": "Alblasserdam",
+   "provincie": "Zuid-Holland",
+   "bortle": 6,
+   "klasse": "Heldere voorstad",
+   "sqm_mediaan": 19.1,
+   "objecten_200mm": 92,
+   "breedtegraad": 51.86
+  },
+  {
+   "gemeente": "Enschede",
+   "provincie": "Overijssel",
+   "bortle": 6,
+   "klasse": "Heldere voorstad",
+   "sqm_mediaan": 19.1,
+   "objecten_200mm": 92,
+   "breedtegraad": 52.22
+  },
+  {
+   "gemeente": "Geertruidenberg",
+   "provincie": "Noord-Brabant",
+   "bortle": 6,
+   "klasse": "Heldere voorstad",
+   "sqm_mediaan": 19.1,
+   "objecten_200mm": 92,
+   "breedtegraad": 51.7
+  },
+  {
+   "gemeente": "Heemskerk",
+   "provincie": "Noord-Holland",
+   "bortle": 6,
+   "klasse": "Heldere voorstad",
+   "sqm_mediaan": 19.1,
+   "objecten_200mm": 92,
+   "breedtegraad": 52.51
+  },
+  {
+   "gemeente": "Nieuwegein",
+   "provincie": "Utrecht",
+   "bortle": 6,
+   "klasse": "Heldere voorstad",
+   "sqm_mediaan": 19.1,
+   "objecten_200mm": 92,
+   "breedtegraad": 52.03
+  },
+  {
+   "gemeente": "Nissewaard",
+   "provincie": "Zuid-Holland",
+   "bortle": 6,
+   "klasse": "Heldere voorstad",
+   "sqm_mediaan": 19.1,
+   "objecten_200mm": 92,
+   "breedtegraad": 51.83
+  },
+  {
+   "gemeente": "Oosterhout",
+   "provincie": "Noord-Brabant",
+   "bortle": 6,
+   "klasse": "Heldere voorstad",
+   "sqm_mediaan": 19.1,
+   "objecten_200mm": 92,
+   "breedtegraad": 51.64
+  },
+  {
+   "gemeente": "Papendrecht",
+   "provincie": "Zuid-Holland",
+   "bortle": 6,
+   "klasse": "Heldere voorstad",
+   "sqm_mediaan": 19.1,
+   "objecten_200mm": 92,
+   "breedtegraad": 51.83
+  },
+  {
+   "gemeente": "Stede Broec",
+   "provincie": "Noord-Holland",
+   "bortle": 6,
+   "klasse": "Heldere voorstad",
+   "sqm_mediaan": 19.1,
+   "objecten_200mm": 92,
+   "breedtegraad": 52.7
+  },
+  {
+   "gemeente": "Velsen",
+   "provincie": "Noord-Holland",
+   "bortle": 6,
+   "klasse": "Heldere voorstad",
+   "sqm_mediaan": 19.1,
+   "objecten_200mm": 92,
+   "breedtegraad": 52.45
+  },
+  {
+   "gemeente": "Wassenaar",
+   "provincie": "Zuid-Holland",
+   "bortle": 6,
+   "klasse": "Heldere voorstad",
+   "sqm_mediaan": 19.1,
+   "objecten_200mm": 92,
+   "breedtegraad": 52.14
+  },
+  {
+   "gemeente": "Zwijndrecht",
+   "provincie": "Zuid-Holland",
+   "bortle": 6,
+   "klasse": "Heldere voorstad",
+   "sqm_mediaan": 19.1,
+   "objecten_200mm": 92,
+   "breedtegraad": 51.82
+  },
+  {
+   "gemeente": "Albrandswaard",
+   "provincie": "Zuid-Holland",
+   "bortle": 6,
+   "klasse": "Heldere voorstad",
+   "sqm_mediaan": 19,
+   "objecten_200mm": 92,
+   "breedtegraad": 51.85
+  },
+  {
+   "gemeente": "Amersfoort",
+   "provincie": "Utrecht",
+   "bortle": 6,
+   "klasse": "Heldere voorstad",
+   "sqm_mediaan": 19,
+   "objecten_200mm": 92,
+   "breedtegraad": 52.17
+  },
+  {
+   "gemeente": "Breda",
+   "provincie": "Noord-Brabant",
+   "bortle": 6,
+   "klasse": "Heldere voorstad",
+   "sqm_mediaan": 19,
+   "objecten_200mm": 92,
+   "breedtegraad": 51.59
+  },
+  {
+   "gemeente": "Haarlem",
+   "provincie": "Noord-Holland",
+   "bortle": 6,
+   "klasse": "Heldere voorstad",
+   "sqm_mediaan": 19,
+   "objecten_200mm": 92,
+   "breedtegraad": 52.38
+  },
+  {
+   "gemeente": "Hendrik-Ido-Ambacht",
+   "provincie": "Zuid-Holland",
+   "bortle": 6,
+   "klasse": "Heldere voorstad",
+   "sqm_mediaan": 19,
+   "objecten_200mm": 92,
+   "breedtegraad": 51.84
+  },
+  {
+   "gemeente": "Nijmegen",
+   "provincie": "Gelderland",
+   "bortle": 6,
+   "klasse": "Heldere voorstad",
+   "sqm_mediaan": 19,
+   "objecten_200mm": 92,
+   "breedtegraad": 51.84
+  },
+  {
+   "gemeente": "Ouder-Amstel",
+   "provincie": "Noord-Holland",
+   "bortle": 6,
+   "klasse": "Heldere voorstad",
+   "sqm_mediaan": 19,
+   "objecten_200mm": 92,
+   "breedtegraad": 52.29
+  },
+  {
+   "gemeente": "Stein",
+   "provincie": "Limburg",
+   "bortle": 6,
+   "klasse": "Heldere voorstad",
+   "sqm_mediaan": 19,
+   "objecten_200mm": 93,
+   "breedtegraad": 50.97
+  },
+  {
+   "gemeente": "Beverwijk",
+   "provincie": "Noord-Holland",
+   "bortle": 7,
+   "klasse": "Voorstad/stad-overgang",
+   "sqm_mediaan": 18.9,
+   "objecten_200mm": 84,
+   "breedtegraad": 52.48
+  },
+  {
+   "gemeente": "Lisse",
+   "provincie": "Zuid-Holland",
+   "bortle": 6,
+   "klasse": "Heldere voorstad",
+   "sqm_mediaan": 18.9,
+   "objecten_200mm": 92,
+   "breedtegraad": 52.26
+  },
+  {
+   "gemeente": "Tilburg",
+   "provincie": "Noord-Brabant",
+   "bortle": 7,
+   "klasse": "Voorstad/stad-overgang",
+   "sqm_mediaan": 18.9,
+   "objecten_200mm": 84,
+   "breedtegraad": 51.58
+  },
+  {
+   "gemeente": "Utrecht",
+   "provincie": "Utrecht",
+   "bortle": 7,
+   "klasse": "Voorstad/stad-overgang",
+   "sqm_mediaan": 18.9,
+   "objecten_200mm": 84,
+   "breedtegraad": 52.09
+  },
+  {
+   "gemeente": "Venlo",
+   "provincie": "Limburg",
+   "bortle": 6,
+   "klasse": "Heldere voorstad",
+   "sqm_mediaan": 18.9,
+   "objecten_200mm": 93,
+   "breedtegraad": 51.39
+  },
+  {
+   "gemeente": "Amsterdam",
+   "provincie": "Noord-Holland",
+   "bortle": 7,
+   "klasse": "Voorstad/stad-overgang",
+   "sqm_mediaan": 18.8,
+   "objecten_200mm": 84,
+   "breedtegraad": 52.37
+  },
+  {
+   "gemeente": "Barendrecht",
+   "provincie": "Zuid-Holland",
+   "bortle": 7,
+   "klasse": "Voorstad/stad-overgang",
+   "sqm_mediaan": 18.8,
+   "objecten_200mm": 84,
+   "breedtegraad": 51.85
+  },
+  {
+   "gemeente": "Eindhoven",
+   "provincie": "Noord-Brabant",
+   "bortle": 7,
+   "klasse": "Voorstad/stad-overgang",
+   "sqm_mediaan": 18.8,
+   "objecten_200mm": 85,
+   "breedtegraad": 51.45
+  },
+  {
+   "gemeente": "Leiderdorp",
+   "provincie": "Zuid-Holland",
+   "bortle": 7,
+   "klasse": "Voorstad/stad-overgang",
+   "sqm_mediaan": 18.8,
+   "objecten_200mm": 84,
+   "breedtegraad": 52.16
+  },
+  {
+   "gemeente": "Ridderkerk",
+   "provincie": "Zuid-Holland",
+   "bortle": 7,
+   "klasse": "Voorstad/stad-overgang",
+   "sqm_mediaan": 18.8,
+   "objecten_200mm": 84,
+   "breedtegraad": 51.87
+  },
+  {
+   "gemeente": "Teylingen",
+   "provincie": "Zuid-Holland",
+   "bortle": 7,
+   "klasse": "Voorstad/stad-overgang",
+   "sqm_mediaan": 18.8,
+   "objecten_200mm": 84,
+   "breedtegraad": 52.21
+  },
+  {
+   "gemeente": "Voorne aan Zee",
+   "provincie": "Zuid-Holland",
+   "bortle": 7,
+   "klasse": "Voorstad/stad-overgang",
+   "sqm_mediaan": 18.8,
+   "objecten_200mm": 84,
+   "breedtegraad": 51.87
+  },
+  {
+   "gemeente": "Alphen aan den Rijn",
+   "provincie": "Zuid-Holland",
+   "bortle": 7,
+   "klasse": "Voorstad/stad-overgang",
+   "sqm_mediaan": 18.7,
+   "objecten_200mm": 84,
+   "breedtegraad": 52.11
+  },
+  {
+   "gemeente": "Dijk en Waard",
+   "provincie": "Noord-Holland",
+   "bortle": 7,
+   "klasse": "Voorstad/stad-overgang",
+   "sqm_mediaan": 18.7,
+   "objecten_200mm": 84,
+   "breedtegraad": 52.68
+  },
+  {
+   "gemeente": "Haarlemmermeer",
+   "provincie": "Noord-Holland",
+   "bortle": 7,
+   "klasse": "Voorstad/stad-overgang",
+   "sqm_mediaan": 18.7,
+   "objecten_200mm": 84,
+   "breedtegraad": 52.31
+  },
+  {
+   "gemeente": "Katwijk",
+   "provincie": "Zuid-Holland",
+   "bortle": 7,
+   "klasse": "Voorstad/stad-overgang",
+   "sqm_mediaan": 18.7,
+   "objecten_200mm": 84,
+   "breedtegraad": 52.19
+  },
+  {
+   "gemeente": "Krimpen aan den IJssel",
+   "provincie": "Zuid-Holland",
+   "bortle": 7,
+   "klasse": "Voorstad/stad-overgang",
+   "sqm_mediaan": 18.6,
+   "objecten_200mm": 84,
+   "breedtegraad": 51.91
+  },
+  {
+   "gemeente": "Nieuwkoop",
+   "provincie": "Zuid-Holland",
+   "bortle": 7,
+   "klasse": "Voorstad/stad-overgang",
+   "sqm_mediaan": 18.6,
+   "objecten_200mm": 84,
+   "breedtegraad": 52.17
+  },
+  {
+   "gemeente": "Zoeterwoude",
+   "provincie": "Zuid-Holland",
+   "bortle": 7,
+   "klasse": "Voorstad/stad-overgang",
+   "sqm_mediaan": 18.6,
+   "objecten_200mm": 84,
+   "breedtegraad": 52.11
+  },
+  {
+   "gemeente": "Gouda",
+   "provincie": "Zuid-Holland",
+   "bortle": 7,
+   "klasse": "Voorstad/stad-overgang",
+   "sqm_mediaan": 18.5,
+   "objecten_200mm": 84,
+   "breedtegraad": 52.02
+  },
+  {
+   "gemeente": "Leiden",
+   "provincie": "Zuid-Holland",
+   "bortle": 7,
+   "klasse": "Voorstad/stad-overgang",
+   "sqm_mediaan": 18.5,
+   "objecten_200mm": 84,
+   "breedtegraad": 52.15
+  },
+  {
+   "gemeente": "Voorschoten",
+   "provincie": "Zuid-Holland",
+   "bortle": 7,
+   "klasse": "Voorstad/stad-overgang",
+   "sqm_mediaan": 18.5,
+   "objecten_200mm": 84,
+   "breedtegraad": 52.12
+  },
+  {
+   "gemeente": "Oegstgeest",
+   "provincie": "Zuid-Holland",
+   "bortle": 7,
+   "klasse": "Voorstad/stad-overgang",
+   "sqm_mediaan": 18.4,
+   "objecten_200mm": 84,
+   "breedtegraad": 52.19
+  },
+  {
+   "gemeente": "Capelle aan den IJssel",
+   "provincie": "Zuid-Holland",
+   "bortle": 8,
+   "klasse": "Stad",
+   "sqm_mediaan": 18.3,
+   "objecten_200mm": 81,
+   "breedtegraad": 51.93
+  },
+  {
+   "gemeente": "Amstelveen",
+   "provincie": "Noord-Holland",
+   "bortle": 8,
+   "klasse": "Stad",
+   "sqm_mediaan": 18.2,
+   "objecten_200mm": 81,
+   "breedtegraad": 52.29
+  },
+  {
+   "gemeente": "Kaag en Braassem",
+   "provincie": "Zuid-Holland",
+   "bortle": 8,
+   "klasse": "Stad",
+   "sqm_mediaan": 18.2,
+   "objecten_200mm": 81,
+   "breedtegraad": 52.19
+  },
+  {
+   "gemeente": "Leidschendam-Voorburg",
+   "provincie": "Zuid-Holland",
+   "bortle": 8,
+   "klasse": "Stad",
+   "sqm_mediaan": 18,
+   "objecten_200mm": 81,
+   "breedtegraad": 52.09
+  },
+  {
+   "gemeente": "Schiedam",
+   "provincie": "Zuid-Holland",
+   "bortle": 9,
+   "klasse": "Binnenstad",
+   "sqm_mediaan": 17.9,
+   "objecten_200mm": 80,
+   "breedtegraad": 51.93
+  },
+  {
+   "gemeente": "'s-Gravenhage",
+   "provincie": "Zuid-Holland",
+   "bortle": 9,
+   "klasse": "Binnenstad",
+   "sqm_mediaan": 17.8,
+   "objecten_200mm": 80,
+   "breedtegraad": 52.07
+  },
+  {
+   "gemeente": "Vlaardingen",
+   "provincie": "Zuid-Holland",
+   "bortle": 9,
+   "klasse": "Binnenstad",
+   "sqm_mediaan": 17.7,
+   "objecten_200mm": 80,
+   "breedtegraad": 51.92
+  },
+  {
+   "gemeente": "Zoetermeer",
+   "provincie": "Zuid-Holland",
+   "bortle": 9,
+   "klasse": "Binnenstad",
+   "sqm_mediaan": 17.5,
+   "objecten_200mm": 80,
+   "breedtegraad": 52.06
+  },
+  {
+   "gemeente": "Waddinxveen",
+   "provincie": "Zuid-Holland",
+   "bortle": 9,
+   "klasse": "Binnenstad",
+   "sqm_mediaan": 17.4,
+   "objecten_200mm": 80,
+   "breedtegraad": 52.04
+  },
+  {
+   "gemeente": "Rijswijk",
+   "provincie": "Zuid-Holland",
+   "bortle": 9,
+   "klasse": "Binnenstad",
+   "sqm_mediaan": 17.3,
+   "objecten_200mm": 80,
+   "breedtegraad": 52.04
+  },
+  {
+   "gemeente": "Delft",
+   "provincie": "Zuid-Holland",
+   "bortle": 9,
+   "klasse": "Binnenstad",
+   "sqm_mediaan": 17.2,
+   "objecten_200mm": 80,
+   "breedtegraad": 52
+  },
+  {
+   "gemeente": "Aalsmeer",
+   "provincie": "Noord-Holland",
+   "bortle": 9,
+   "klasse": "Binnenstad",
+   "sqm_mediaan": 17.1,
+   "objecten_200mm": 80,
+   "breedtegraad": 52.26
+  },
+  {
+   "gemeente": "Maassluis",
+   "provincie": "Zuid-Holland",
+   "bortle": 9,
+   "klasse": "Binnenstad",
+   "sqm_mediaan": 17.1,
+   "objecten_200mm": 80,
+   "breedtegraad": 51.93
+  },
+  {
+   "gemeente": "Rotterdam",
+   "provincie": "Zuid-Holland",
+   "bortle": 9,
+   "klasse": "Binnenstad",
+   "sqm_mediaan": 17.1,
+   "objecten_200mm": 80,
+   "breedtegraad": 51.93
+  },
+  {
+   "gemeente": "Midden-Delfland",
+   "provincie": "Zuid-Holland",
+   "bortle": 9,
+   "klasse": "Binnenstad",
+   "sqm_mediaan": 16.8,
+   "objecten_200mm": 80,
+   "breedtegraad": 51.96
+  },
+  {
+   "gemeente": "Zuidplas",
+   "provincie": "Zuid-Holland",
+   "bortle": 9,
+   "klasse": "Binnenstad",
+   "sqm_mediaan": 16.8,
+   "objecten_200mm": 80,
+   "breedtegraad": 52
+  },
+  {
+   "gemeente": "Uithoorn",
+   "provincie": "Noord-Holland",
+   "bortle": 9,
+   "klasse": "Binnenstad",
+   "sqm_mediaan": 16.7,
+   "objecten_200mm": 80,
+   "breedtegraad": 52.24
+  },
+  {
+   "gemeente": "Pijnacker-Nootdorp",
+   "provincie": "Zuid-Holland",
+   "bortle": 9,
+   "klasse": "Binnenstad",
+   "sqm_mediaan": 16.5,
+   "objecten_200mm": 80,
+   "breedtegraad": 52.02
+  },
+  {
+   "gemeente": "Lansingerland",
+   "provincie": "Zuid-Holland",
+   "bortle": 9,
+   "klasse": "Binnenstad",
+   "sqm_mediaan": 16.1,
+   "objecten_200mm": 80,
+   "breedtegraad": 52
+  },
+  {
+   "gemeente": "Westland",
+   "provincie": "Zuid-Holland",
+   "bortle": 9,
+   "klasse": "Binnenstad",
+   "sqm_mediaan": 15.3,
+   "objecten_200mm": 80,
+   "breedtegraad": 52
+  }
+ ]
+}
