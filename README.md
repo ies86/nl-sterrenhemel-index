@@ -16,8 +16,8 @@ Gemaakt door [Telescoopwijzer](https://telescoopwijzer.nl/sterrenhemel-per-gemee
 4. SQM naar Bortle-klasse via de gangbare grenzen; objectentelling met de openbare formules van
    telescoopwijzer.nl/methode, op de breedtegraad van de gemeente.
 
-IJkpunt: Schiermonnikoog berekend 21,4 mag/arcsec2, gelijk aan de meting van het RIVM Meetnet
-Hemelhelderheid destijds.
+IJkpunt: de dorpskern van Schiermonnikoog komt op 21,2 mag/arcsec2, tegen 21,4 gemeten door het
+RIVM Meetnet destijds op een punt buiten het dorp; consistent binnen de marge.
 
 ## Eerlijke beperkingen
 
